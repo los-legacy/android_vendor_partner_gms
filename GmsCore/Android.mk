@@ -26,4 +26,9 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_OVERRIDES_PACKAGES := com.qualcomm.location
 LOCAL_REQUIRED_MODULES := microg-sysconfig.xml privapp-permissions-com.google.android.gms.xml
+
+ifeq ($(PLATFORM_VERSION),12)
+  LOCAL_USES_LIBRARIES := com.android.location.provider
+endif
+
 include $(BUILD_PREBUILT)
