@@ -43,3 +43,4 @@ update_if_needed('AuroraDroid', fdroid_recommended_release(fdroid_main_repo, 'co
 update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.store'))
 update_if_needed('SimpleCalendar', fdroid_recommended_release(fdroid_main_repo, 'com.simplemobiletools.calendar.pro'))
 update_if_needed('SimpleGallery', fdroid_recommended_release(fdroid_main_repo, 'com.simplemobiletools.gallery.pro'))
+update_if_needed('SimpleFileManager', fdroid_recommended_release(fdroid_main_repo, 'com.simplemobiletools.filemanager.pro'))
